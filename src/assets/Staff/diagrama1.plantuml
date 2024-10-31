@@ -1,0 +1,11 @@
+@startuml
+!define causal arrow
+!define arrow -down->
+
+:Pedidos actuales -> :Demanda prevista;
+:Demanda prevista -> :Producción deseada;
+:Producción deseada -> :Existencias reales;
+:Existencias deseadas -> :Producción deseada;
+:Existencias reales -> :Corrección de discrepancias;
+:Corrección de discrepancias -> :Existencias deseadas;
+@enduml

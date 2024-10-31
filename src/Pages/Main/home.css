@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+  background-color: #f4f4f4; /* Color de fondo general */
+  color: #333; /* Color del texto */
+  font-family: 'Roboto', sans-serif; /* Fuente moderna */
+}
+
+.home-content {
+  padding: 20px;
+}
+
+/* Carrusel */
+.hero-carousel-section .carousel-item img {
+  height: 100vh; /* Altura completa de la ventana */
+  object-fit: cover;
+  border-radius: 15px; /* Bordes redondeados para las imágenes del carrusel */
+  transition: transform 0.5s ease; /* Transición suave */
+}
+
+.hero-carousel-section .carousel-item:hover img {
+  transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+/* Sección de historia y equipo */
+.text-center {
+  margin-bottom: 40px;
+}
+
+.history-section, .team-section {
+  background-color: #fff;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Tarjetas */
+.features-section .feature, .team-member-cards .team-member, .associated-gyms-carousel .card {
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: box-shadow 0.3s ease; /* Transición suave para sombra */
+}
+
+.features-section .feature:hover, .team-member:hover, .associated-gyms-carousel .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efecto de elevación al pasar el ratón */
+}
+
+/* Imágenes de miembros del equipo */
+.team-member-img {
+  border-radius: 20%; /* Imagen circular */
+  height: 220px; /* Altura fija ajustada */
+  width: 200px; /* Ancho fijo */
+  object-fit: cover;
+  margin: 0 auto; /* Centrado en la tarjeta */
+  display: block;
+  transition: transform 0.3s ease; /* Transición suave para la transformación */
+}
+
+.team-member-img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el ratón */
+}
+
+/* Botones */
+.cta-button, .btn-primary {
+  background-color: #ff4d4d; /* Color de fondo */
+  border-color: #ff4d4d; /* Color del borde */
+  color: #fff; /* Color del texto */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transiciones suaves */
+}
+
+.cta-button:hover, .btn-primary:hover {
+  background-color: #e03a3a; /* Color de fondo al pasar el ratón */
+  border-color: #e03a3a; /* Color del borde al pasar el ratón */
+}
+
+/* Formularios */
+.registration-form {
+  max-width: 500px; /* Limitar el ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+  padding: 20px;
+  background-color: #fff; /* Fondo claro para el formulario */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de elevación */
+}
+
+.form-input {
+  border-radius: 4px; /* Bordes redondeados para los campos de entrada */
+  padding: 10px; /* Espaciado interno de los campos de entrada */
+  margin-bottom: 15px; /* Espaciado entre los campos */
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .hero-carousel-section .carousel-item img {
+    height: 60vh; /* Ajustar altura en dispositivos móviles */
+  }
+
+  .team-member-img {
+    height: 180px; /* Ajustar altura en dispositivos móviles */
+    width: 180px; /* Ajustar ancho en dispositivos móviles */
+  }
+}

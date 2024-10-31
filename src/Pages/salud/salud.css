@@ -1,0 +1,52 @@
+.hero-section {
+    padding: 2rem;
+    color: black;
+  }
+  
+  .benefits-section .benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .benefit-card {
+    margin: 1rem;
+  }
+  
+  .athletes-section .athlete-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .athlete-card {
+    margin: 1rem;
+  }
+  
+  .athlete-img {
+    height: 150px; /* Altura fija para las imágenes */
+    width: 150px; /* Ancho fijo para las imágenes */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+    margin: 0 auto; /* Centra la imagen en la tarjeta */
+    display: block; /* Asegura que la imagen sea un bloque para el centrado */
+  }
+  
+  .cta-section {
+    background-color: #ff4d4d;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #ff4d4d;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #e03a3a;
+    color: #fff;
+  }
+  

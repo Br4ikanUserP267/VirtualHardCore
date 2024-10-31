@@ -1,0 +1,53 @@
+.testimonios-content {
+    background-color: #343a40;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonios-header {
+    background: linear-gradient(90deg, #343a40 0%, #212529 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+  }
+  
+  .testimonios-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .testimonio-card {
+    background-color: #212529;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonio-name {
+    color: #ff4d4d;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonio-video {
+    margin-bottom: 1rem;
+  }
+  
+  .testimonio-achievements {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .testimonio-achievements li {
+    background-color: #343a40;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,33 @@
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.deportes-section .deportes-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deporte-card {
+  margin: 1rem;
+}
+
+.cta-section {
+  background-color: #ff4d4d;
+  padding: 2rem;
+  color: #fff;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #ff4d4d;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background-color: #e03a3a;
+  color: #fff;
+}

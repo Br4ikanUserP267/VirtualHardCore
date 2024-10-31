@@ -1,0 +1,79 @@
+.liga-potencia-content {
+    background-color: #343a40;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .liga-potencia-header {
+    background: linear-gradient(90deg, #343a40 0%, #212529 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-top: 10em;
+  }
+  
+  .liga-potencia-logo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: -75px; /* Ajusta para que el logo esté centrado encima del header */
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #ff4d4d; /* Borde rojo para destacar el logo */
+  }
+  
+  .liga-potencia-header h1 {
+    color: #ff4d4d;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 2.5rem; /* Para dar espacio debajo del logo */
+  }
+  
+  .liga-potencia-section {
+    background-color: #212529;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .section-title {
+    color: #ff4d4d;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-content ul li {
+    background-color: #343a40;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .section-content p {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inscribete-btn {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .inscribete-btn:hover {
+    background-color: #ff3333;
+  }
+  

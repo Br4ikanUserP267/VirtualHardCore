@@ -1,0 +1,96 @@
+/* Estilos generales */
+.login-content {
+  background-color: #343a40;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-form {
+  background-color: #212529;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-form .form-label {
+  color: #ffffff;
+}
+
+.login-form .form-control {
+  background-color: #343a40;
+  border: 1px solid #ff4d4d;
+  color: #ffffff;
+}
+
+.login-form .form-control::placeholder {
+  color: #ffffff;
+}
+
+.login-form .btn-primary {
+  background-color: #ff4d4d;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.login-form .btn-primary:hover {
+  background-color: #ff3333;
+}
+
+/* Estilos para el modal */
+.reset-password-modal .modal-content {
+  background-color: #212529;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reset-password-modal .modal-header {
+  border-bottom: 1px solid #ff4d4d;
+}
+
+.reset-password-modal .modal-title {
+  color: #ffffff;
+}
+
+.reset-password-modal .modal-body {
+  background-color: #212529;
+}
+
+.reset-password-modal .form-label {
+  color: #ffffff;
+}
+
+.reset-password-modal .form-control {
+  background-color: #343a40;
+  border: 1px solid #ff4d4d;
+  color: #ffffff;
+}
+
+.reset-password-modal .form-control::placeholder {
+  color: #ffffff;
+}
+
+.reset-password-modal .btn-primary {
+  background-color: #ff4d4d;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.reset-password-modal .btn-primary:hover {
+  background-color: #ff3333;
+}
+
+.reset-password-modal .modal-footer {
+  border-top: none;
+}

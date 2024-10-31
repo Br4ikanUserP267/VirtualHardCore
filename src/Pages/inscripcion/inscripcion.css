@@ -1,0 +1,78 @@
+.inscripcion-content {
+  background-color: #343a40;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.inscripcion-header {
+  background: linear-gradient(90deg, #343a40 0%, #212529 100%);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 10em;
+}
+
+.beneficios-list {
+  list-style: none;
+  padding: 0;
+}
+
+.beneficios-list li {
+  background-color: #212529;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.form-section {
+  background-color: #212529;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 2rem;
+}
+
+.form-title {
+  color: #ff4d4d;
+}
+
+.inscripcion-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.inscripcion-form .form-label {
+  color: #ff4d4d;
+}
+
+.inscripcion-form .form-control {
+  background-color: #343a40;
+  color: #ffffff;
+  border: 1px solid #ff4d4d;
+}
+
+.inscribete-btn {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inscribete-btn:hover {
+  background-color: #ff3333;
+}
+
+.alert {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: #ffffff;
+}

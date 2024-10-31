@@ -1,0 +1,32 @@
+.powerbuilding-content {
+    padding: 2rem;
+  }
+  
+  .introduction-section {
+    padding: 2rem;
+    border-radius: 5px;
+    color:black;
+    margin:0;
+    
+  }
+  
+  .athlete-cards {
+    gap: 1rem;
+  }
+  
+  .athlete-img {
+    height: 150px; /* Altura fija para las imágenes */
+    width: 150px; /* Ancho fijo para las imágenes */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+    margin: 0 auto; /* Centra la imagen en la tarjeta */
+    display: block; /* Asegura que la imagen sea un bloque para el centrado */
+  }
+  
+  .plan-card {
+    text-align: center;
+  }
+  
+  .plan-card .btn {
+    margin-top: 1rem;
+  }
+  
